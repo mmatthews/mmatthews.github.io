@@ -230,14 +230,23 @@ footer{
   }
 
   main{
-    margin: 4.5em 1em;
-    font-size: 80%;
+    margin: 4.5em 0;
+    font-size: 82%;
+
+    strong{
+      text-align: center;
+      display: block;
+      font-size: 350%;
+    }
   }
 
 
   .soc-links{
     font-size: 80%;
 
+    a{
+      padding: 0.25em 0.55em;
+    }
   }
 
 }
