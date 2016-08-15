@@ -52,15 +52,6 @@ body {
   color: #111;
   text-shadow: 0 1px 1px white; }
 
-/*
-body:before{
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
-}
-*/
 body > div {
   margin: 3em;
   text-align: center; }
@@ -90,7 +81,10 @@ header > a {
   padding: 0.25em 0; }
 
 .soc-links {
-  padding: 0.75em 1em; }
+  padding: 1em 1em;
+  border-bottom: 1px solid #CCC;
+  display: inline-block;
+  margin-top: 2.5em; }
   .soc-links a {
     padding: 0.25em 0.75em;
     border-radius: 2px;
@@ -136,3 +130,19 @@ main strong {
     padding-left: 1.5em;
     font-size: 90%;
     margin-bottom: 1.5em; }
+
+@media screen and (max-width: 640px) {
+  body {
+    padding: 0.5em; }
+    body > div {
+      margin: 1em; }
+  header a img {
+    max-width: 100px;
+    margin-bottom: 0; }
+  header h1 {
+    font-size: 250%; }
+  main {
+    margin: 4.5em 1em;
+    font-size: 80%; }
+  .soc-links {
+    font-size: 80%; } }
