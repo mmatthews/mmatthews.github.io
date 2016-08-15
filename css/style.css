@@ -152,7 +152,7 @@ main strong {
       font-size: 350%;
       margin-bottom: -0.25em; }
   .projects {
-    font-size: 120%; }
+    font-size: 90%; }
     .projects h1 {
       text-align: center;
       margin: 0.5em 0;
@@ -165,7 +165,7 @@ main strong {
   .soc-links {
     font-size: 100%;
     border-bottom: none;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     padding: 0;
     text-align: left;
     display: block; }
