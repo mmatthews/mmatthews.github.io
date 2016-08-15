@@ -1,0 +1,23 @@
+{
+  "name": "markmatthews",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmatthews/markmatthews.git"
+  },
+  "author": "Mark Matthews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmatthews/markmatthews/issues"
+  },
+  "homepage": "https://github.com/mmatthews/markmatthews#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

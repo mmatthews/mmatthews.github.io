@@ -1,0 +1,207 @@
+/*
+Mark Matthews Personal Website
+Author: Mark Matthews
+Author URI: http://wwide.ca
+Description: WordPress theme for Worldwide Web Development
+*/
+
+$red:   #A5001F;
+$blue:   #39A6DE;
+
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+}
+
+.skip-link{
+  display: inline-block;
+  background: $red;
+  color: white;
+  position: fixed;
+  top: -999em;
+  left: 1em;
+  font-size: 110%;
+  font-weight: bold;
+  padding: 0.25em 1em;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 0px 0px 3px 3px;
+  text-shadow: 1px 1px 0px darken($red, 10%);
+
+  &:hover{
+    color: white;
+  }
+
+  &:focus{
+    color: white;
+    top: 0;
+  }
+}
+
+a{
+  color: darken($blue, 10%);
+  text-decoration: none;
+  //transition: all 0.2s;
+
+  &:hover, &:focus{
+    color: darken($blue, 5%);
+    text-decoration: underline;
+  }
+}
+
+
+html {
+  background: #fffefC;
+}
+
+body {
+  font-family: "Roboto", serif;
+  color: #111;
+  text-shadow: 0 1px 1px white;
+  //height: 100vh;
+}
+
+/*
+body:before{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+*/
+
+
+body > div{
+  margin: 3em;
+  text-align: center;
+  //max-width: 80vw;
+  //display: inline-block;
+  //vertical-align: middle;
+}
+
+header img{
+  max-width: 150px;
+  height: auto;
+  border-radius: 999em;
+  border: 0.25em solid #CCC;
+  padding: 0.25em;
+  transition: all 0.3s;
+  margin-bottom: 0.5em;
+
+
+  &:hover{
+    //padding: 0.25em;
+    border: 0.25em solid $blue;
+    background: $blue;
+    cursor: pointer;
+  }
+}
+
+header h1{
+  font-size: 400%;
+  font-weight: 100;
+  letter-spacing: -0.05em;
+}
+
+header > a{
+  color: darken($blue, 20%);
+  text-decoration: none;
+  display: block;
+  padding: 0.25em 0;
+}
+
+.soc-links{
+  padding: 0.75em 1em;
+  a{
+    padding: 0.25em 0.75em;
+    border-radius: 2px;
+    text-shadow: none;
+      // hover off
+    transition: background 0.15s, color 0.5s;
+
+    &:hover, &:focus{
+      text-decoration: none;
+      // hover on
+      transition: background 0.15s;
+
+      &.email{
+        //background: #2B82DE;
+        //background: linear-gradient(-36deg, #2B82DE, #1E77DD);
+        background: #1E77DD;
+        color: #FEFEFE;
+      }
+
+      &.linkedin{
+        //background: linear-gradient(-36deg, #0077B5, #005582);
+        background: #0077B5;
+        //background: #0077B5;
+        color: #FEFEFE;
+      }
+
+      &.github{
+        //background: #333;
+        //background: linear-gradient(-36deg, #444, #111);
+        background: #444;
+        color: #FEFEFE;
+      }
+
+      &.insta{
+        //background: #E9594B;
+        //background: linear-gradient(-36deg, #E9594B, #D5378B);
+        background: #E9594B;
+        color: #FEFEFE;
+      }
+    }
+  }
+}
+
+main{
+  text-align: left;
+}
+
+main > p {
+  margin: 1em auto;
+  max-width: 37em;
+  line-height: 1.5em;
+  font-size: 120%;
+}
+
+main strong{
+  font-size: 150%;
+  color: #333;
+}
+
+.projects main{
+  margin-left: 1.5em;
+  max-width: 40em;
+  margin: 0 auto;
+
+  strong, a{
+    font-size: 100%;
+    display: block;
+  }
+
+
+  p{
+    padding-left: 1.5em;
+    font-size: 90%;
+    margin-bottom: 1.5em;
+  }
+}
+
+footer{
+}
+
+

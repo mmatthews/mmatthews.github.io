@@ -1,0 +1,138 @@
+/*
+Mark Matthews Personal Website
+Author: Mark Matthews
+Author URI: http://wwide.ca
+Description: WordPress theme for Worldwide Web Development
+*/
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); }
+
+.skip-link {
+  display: inline-block;
+  background: #A5001F;
+  color: white;
+  position: fixed;
+  top: -999em;
+  left: 1em;
+  font-size: 110%;
+  font-weight: bold;
+  padding: 0.25em 1em;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 0px 0px 3px 3px;
+  text-shadow: 1px 1px 0px #720015; }
+  .skip-link:hover {
+    color: white; }
+  .skip-link:focus {
+    color: white;
+    top: 0; }
+
+a {
+  color: #218cc3;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: #249cd9;
+    text-decoration: underline; }
+
+html {
+  background: #fffefC; }
+
+body {
+  font-family: "Roboto", serif;
+  color: #111;
+  text-shadow: 0 1px 1px white; }
+
+/*
+body:before{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+*/
+body > div {
+  margin: 3em;
+  text-align: center; }
+
+header img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 999em;
+  border: 0.25em solid #CCC;
+  padding: 0.25em;
+  transition: all 0.3s;
+  margin-bottom: 0.5em; }
+  header img:hover {
+    border: 0.25em solid #39A6DE;
+    background: #39A6DE;
+    cursor: pointer; }
+
+header h1 {
+  font-size: 400%;
+  font-weight: 100;
+  letter-spacing: -0.05em; }
+
+header > a {
+  color: #196d98;
+  text-decoration: none;
+  display: block;
+  padding: 0.25em 0; }
+
+.soc-links {
+  padding: 0.75em 1em; }
+  .soc-links a {
+    padding: 0.25em 0.75em;
+    border-radius: 2px;
+    text-shadow: none;
+    transition: background 0.15s, color 0.5s; }
+    .soc-links a:hover, .soc-links a:focus {
+      text-decoration: none;
+      transition: background 0.15s; }
+      .soc-links a:hover.email, .soc-links a:focus.email {
+        background: #1E77DD;
+        color: #FEFEFE; }
+      .soc-links a:hover.linkedin, .soc-links a:focus.linkedin {
+        background: #0077B5;
+        color: #FEFEFE; }
+      .soc-links a:hover.github, .soc-links a:focus.github {
+        background: #444;
+        color: #FEFEFE; }
+      .soc-links a:hover.insta, .soc-links a:focus.insta {
+        background: #E9594B;
+        color: #FEFEFE; }
+
+main {
+  text-align: left; }
+
+main > p {
+  margin: 1em auto;
+  max-width: 37em;
+  line-height: 1.5em;
+  font-size: 120%; }
+
+main strong {
+  font-size: 150%;
+  color: #333; }
+
+.projects main {
+  margin-left: 1.5em;
+  max-width: 40em;
+  margin: 0 auto; }
+  .projects main strong, .projects main a {
+    font-size: 100%;
+    display: block; }
+  .projects main p {
+    padding-left: 1.5em;
+    font-size: 90%;
+    margin-bottom: 1.5em; }
