@@ -133,7 +133,7 @@ main strong {
 
 @media screen and (max-width: 640px) {
   html {
-    font-size: 120%; }
+    font-size: 100%; }
   body {
     padding: 0.5em; }
     body > div {
@@ -150,7 +150,17 @@ main strong {
       text-align: center;
       display: block;
       font-size: 350%; }
+  .projects h1 {
+    text-align: center;
+    margin: 0.5em 0;
+    margin-bottom: 1em; }
+  .projects main p {
+    padding-left: 0; }
+  .projects strong {
+    text-align: left; }
   .soc-links {
-    font-size: 80%; }
+    font-size: 80%;
+    border-bottom: none; }
     .soc-links a {
-      padding: 0.25em 0.55em; } }
+      display: block;
+      padding: 0.5em 0; } }
