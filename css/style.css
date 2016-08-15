@@ -10,38 +10,11 @@ Description: WordPress theme for Worldwide Web Development
   margin: 0;
   padding: 0; }
 
-.hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px); }
-
-.skip-link {
-  display: inline-block;
-  background: #A5001F;
-  color: white;
-  position: fixed;
-  top: -999em;
-  left: 1em;
-  font-size: 110%;
-  font-weight: bold;
-  padding: 0.25em 1em;
-  font-family: "PT Sans", sans-serif;
-  text-decoration: none;
-  border-radius: 0px 0px 3px 3px;
-  text-shadow: 1px 1px 0px #720015; }
-  .skip-link:hover {
-    color: white; }
-  .skip-link:focus {
-    color: white;
-    top: 0; }
-
 a {
-  color: #218cc3;
+  color: #1b77a6;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #249cd9;
+    color: #176790;
     text-decoration: underline; }
 
 html {
@@ -65,8 +38,8 @@ header img {
   transition: all 0.3s;
   margin-bottom: 0.5em; }
   header img:hover {
-    border: 0.25em solid #39A6DE;
-    background: #39A6DE;
+    border: 0.25em solid #1b77a6;
+    background: #1b77a6;
     cursor: pointer; }
 
 header h1 {
@@ -75,7 +48,7 @@ header h1 {
   letter-spacing: -0.05em; }
 
 header > a {
-  color: #196d98;
+  color: #1b77a6;
   text-decoration: none;
   display: block;
   padding: 0.25em 0; }
@@ -172,4 +145,4 @@ main strong {
     .soc-links a {
       display: block;
       padding: 0.5em 0.25em;
-      margin-left: -0.5em; } }
+      margin-left: -0.25em; } }

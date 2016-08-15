@@ -5,8 +5,7 @@ Author URI: http://wwide.ca
 Description: WordPress theme for Worldwide Web Development
 */
 
-$red:   #A5001F;
-$blue:   #39A6DE;
+$blue:   #1b77a6;
 
 * {
   -moz-box-sizing: border-box;
@@ -15,41 +14,9 @@ $blue:   #39A6DE;
   padding: 0;
 }
 
-.hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px);
-}
-
-.skip-link{
-  display: inline-block;
-  background: $red;
-  color: white;
-  position: fixed;
-  top: -999em;
-  left: 1em;
-  font-size: 110%;
-  font-weight: bold;
-  padding: 0.25em 1em;
-  font-family: "PT Sans", sans-serif;
-  text-decoration: none;
-  border-radius: 0px 0px 3px 3px;
-  text-shadow: 1px 1px 0px darken($red, 10%);
-
-  &:hover{
-    color: white;
-  }
-
-  &:focus{
-    color: white;
-    top: 0;
-  }
-}
 
 a{
-  color: darken($blue, 10%);
+  color: $blue;
   text-decoration: none;
   //transition: all 0.2s;
 
@@ -104,11 +71,12 @@ header h1{
 }
 
 header > a{
-  color: darken($blue, 20%);
+  color: $blue;
   text-decoration: none;
   display: block;
   padding: 0.25em 0;
 }
+
 
 .soc-links{
   padding: 1em 1em;
@@ -262,6 +230,7 @@ footer{
     }
   }
 
+
   .soc-links{
     font-size: 100%;
     border-bottom: none;
@@ -272,8 +241,8 @@ footer{
 
     a{
       display: block;
-      padding: 0.5em 0.5em;
-      margin-left: -0.5em;
+      padding: 0.5em 0.25em;
+      margin-left: -0.25em;
     }
   }
 
