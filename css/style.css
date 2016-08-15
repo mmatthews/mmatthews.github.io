@@ -159,8 +159,12 @@ main strong {
   .projects strong {
     text-align: left; }
   .soc-links {
-    font-size: 80%;
-    border-bottom: none; }
+    font-size: 100%;
+    border-bottom: none;
+    margin-bottom: 1em;
+    padding: 0;
+    text-align: left; }
     .soc-links a {
-      display: block;
-      padding: 0.5em 0; } }
+      display: inline-block;
+      padding: 0.5em 0.25em;
+      margin-left: -0.5em; } }
