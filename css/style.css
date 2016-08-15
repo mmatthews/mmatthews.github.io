@@ -149,22 +149,27 @@ main strong {
     main strong {
       text-align: center;
       display: block;
-      font-size: 350%; }
-  .projects h1 {
-    text-align: center;
-    margin: 0.5em 0;
-    margin-bottom: 1em; }
-  .projects main p {
-    padding-left: 0; }
-  .projects strong {
-    text-align: left; }
+      font-size: 350%;
+      margin-bottom: -0.25em; }
+  .projects {
+    font-size: 120%; }
+    .projects h1 {
+      text-align: center;
+      margin: 0.5em 0;
+      margin-bottom: 1em; }
+    .projects main p {
+      padding-left: 0;
+      font-size: 120%; }
+    .projects strong {
+      text-align: left; }
   .soc-links {
     font-size: 100%;
     border-bottom: none;
     margin-bottom: 1em;
     padding: 0;
-    text-align: left; }
+    text-align: left;
+    display: block; }
     .soc-links a {
-      display: inline-block;
+      display: block;
       padding: 0.5em 0.25em;
       margin-left: -0.5em; } }
